@@ -1,4 +1,36 @@
-.card {
-    margin: 0px;
-    width: 50%;
+body {
+    overflow-x: hidden;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.fa-linkedin,
+.fa-github {
+    font-size: 21px;
+}
+
+.row {
+    margin-top: 1%;
+}
+
+@media (max-width: 575.98px) {
+    .row {
+        margin-top: 0%;
+    }
+    .card {
+        border: none;
+    }
+    .card-img-top {
+        border-radius: 0;
+    }
+}
+
+.row-justify-content-around {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
 }
